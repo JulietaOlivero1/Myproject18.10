@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Mulish:ital,wght@1,200..1000&display=swap');
+
+* {margin: 0;
+    box-sizing: border-box;}
+ 
+    main,header,footer { width: 83.33%;margin: 0 auto;}
+    
+body {background-color: #D4B483;
+color: #2E5230;
+font-family: "Mulish", sans-serif;
+font-weight: 500;}
+
+h1 {color: #F2EDEB;
+
+    line-height: 80px;
+    font-size:2em;
+    font-family: "Alfa Slab One", serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+font-weight: 300;
+}
+
+h1 + p { font-family:"Alfa Slab One", serif;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;}
+
+h2 {font-family:"Alfa Slab One", serif;
+font-weight: 200;
+color: #F5E3C2;
+line-height: 60px;
+    font-size:1.74em;}
+
+a:hover{background-color: #FF6F61;
+    color: rgb(212, 204, 188);
+    text-decoration: underline;
+   width: 500px;
+border-radius: 50px;}
+
+
+a{text-decoration:none;
+color: #2c313f;
+width: 150px;
+height: 40px;
+display: block;
+background-color: #f3e9e8;
+text-align: center;
+border-radius: 20px;
+transition-property: background-color, width;
+transition-duration: 2s,1s;
+transition-delay:0s, 1s ;
+transition-timing-function: cubic-bezier(0,1.25,0,1.23);
+}
+
+ div { width: 80%;
+border-radius: 20px;
+margin: 3% auto;
+display: flex; 
+justify-content: space-between;
+}
+
+div img
+{width: 30%;
+    border: 7px  solid#F5E3C2;}
+ 
+div :hover {
+    width: 430px;
+   border-radius: 200px;
+   }
+
+
+[src="images/charles bridge.jpg"] 
+ {width: 50%; display: block; 
+border: 10px solid #F5E3C2; 
+margin: 0 auto;}
+
+[src="images/charles bridge.jpg"]:hover{
+ width:1000px;
+border-radius: 50px;
+height: 700px;
+}
+
+
+footer{text-align: center;
+margin-top: 5%;
+margin-bottom: 10%;
+font-weight: 900;
+line-height: 80px;
+font-size:2em;
+background-color: #F2EDEB;
+width: 100%;
+color: #046307;
+}
+
+
+main {padding: 10px;
+    box-sizing: border-box;}
+
+@media (max-width:768px){div {width: 30%;}}
